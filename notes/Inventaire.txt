@@ -1,0 +1,10 @@
+1 Slot  arme
+3 Slots sorts
+3 Slots soins
+1 Slot  armure
+2 Slots enchantements
+
+Augmentation HP en même temps que le lvl
+Vie max de 100 (niveau 1), à 700 (niveau max)
+
+Infini slots ressources

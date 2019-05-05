@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "04575d5b-447b-4c24-8a61-09dcaaae23ab",
+            "Value": {
+                "id": "88c1149c-0547-421f-93dd-bacb077c8e0b",
+                "resourcePath": "scripts\\Scr_Center\\Scr_Center.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "050fae22-d5c1-4a28-aa86-d9b01844ca19",
+            "Value": {
+                "id": "159a4a6e-3f9d-4983-bc30-c553633ffd32",
+                "resourcePath": "sprites\\S_Item0\\S_Item0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "074bb5c6-5db3-4ab7-8892-4f4d77fb915e",
             "Value": {
                 "id": "bbf1fc95-67a0-4a7d-9fa0-a0ca19c8c794",
@@ -52,6 +68,14 @@
                 "id": "b030315e-1a29-4d7c-947c-a921fa2bca73",
                 "resourcePath": "views\\3c2678e7-c7f7-4c9d-a389-1445fba099df-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0e87887f-ec79-40dc-9c67-eefe3e2a5ac1",
+            "Value": {
+                "id": "1a13ce7b-f072-40ad-bc29-de8614991c91",
+                "resourcePath": "objects\\Obj_PlayerHUD\\Obj_PlayerHUD.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -127,6 +151,22 @@
             }
         },
         {
+            "Key": "63b88a82-e477-45e3-ac29-024cf19a5cc0",
+            "Value": {
+                "id": "b7cb3566-3809-4ed6-b97f-d09f2f408778",
+                "resourcePath": "objects\\Obj_PlayerInit\\Obj_PlayerInit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6fe4c026-047e-494f-a85d-1667eefe2468",
+            "Value": {
+                "id": "44d13f90-0c0b-48f7-aeed-c1d08eca132e",
+                "resourcePath": "notes\\Inventaire.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "715c8e79-50f1-4182-b645-8a005622e1d8",
             "Value": {
                 "id": "0b9378ce-0e60-4fee-bdf5-02845ff769cd",
@@ -147,6 +187,14 @@
             "Value": {
                 "id": "27f6adc7-2b05-434b-8ca2-07f266bc7d35",
                 "resourcePath": "views\\7c4b1bf1-8ecf-4c3f-bf02-a314c97f459f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7e60ddf6-792d-4762-b7fc-1250012e43e9",
+            "Value": {
+                "id": "f93280cf-8151-4228-8a40-29eda714fa72",
+                "resourcePath": "views\\7e60ddf6-792d-4762-b7fc-1250012e43e9.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -231,6 +279,14 @@
             }
         },
         {
+            "Key": "cf0dae93-e003-4563-8675-a1c64727fb5b",
+            "Value": {
+                "id": "75435bb2-bd82-4753-96ef-eb9a0afef4a3",
+                "resourcePath": "scripts\\Scr_AddItem\\Scr_AddItem.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d5154dd3-88f6-4b8d-9531-8db1dd71ab68",
             "Value": {
                 "id": "67eda11d-ef99-42cc-b4bd-5e0a5f0d6de0",
@@ -301,6 +357,14 @@
                 "resourcePath": "views\\f9526147-755c-4e03-9d07-5c476075c01a.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fe7f55b2-2fce-4f65-85c8-3289cf5b2f6b",
+            "Value": {
+                "id": "9ccb9673-8f06-4115-bfae-3175667a1c8c",
+                "resourcePath": "objects\\Obj_Item0\\Obj_Item0.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
@@ -308,7 +372,9 @@
         "ebd50178-386b-476c-a1d8-0d774b78b8d1",
         "f3b61faa-ade7-42b2-956d-5916f2a22032",
         "799a7cdb-3fb4-4ff1-9a32-910683cec9f2",
-        "a7b7ed03-d720-4bdf-9099-83b9f0100167"
+        "a7b7ed03-d720-4bdf-9099-83b9f0100167",
+        "cf0dae93-e003-4563-8675-a1c64727fb5b",
+        "04575d5b-447b-4c24-8a61-09dcaaae23ab"
     ],
     "tutorial": ""
 }

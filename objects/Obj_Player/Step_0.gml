@@ -9,3 +9,4 @@ if (canMove) {
 	x += cos(angle) * velocity;
 	y += sin(angle) * velocity;
 }
+global.hp -= 0.5;
