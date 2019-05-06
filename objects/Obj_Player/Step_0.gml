@@ -5,8 +5,17 @@ if (canMove) {
 		angle = newAngle;
 
 	}else velocity = Scr_Approach(velocity, moveSpeed/drag, 0);
-
+	if (velocity == 0) {
+		image_speed = 0;
+		image_index = 0;
+	}else image_speed = velocity / moveSpeed;
 	x += cos(angle) * velocity;
 	y += sin(angle) * velocity;
 }
-global.hp -= 0.5;
+if (invincibilityPhase) {
+	invincibilityFramesCounter++;
+	if (invincibilityFramesCounter == invincibilityFrames) {
+		invincibilityFramesCounter = 0;
+		invincibilityPhase = false;
+	}
+}

@@ -1,0 +1,1 @@
+global.hp = Scr_Clamp(argument0, 0, global.maxHp);

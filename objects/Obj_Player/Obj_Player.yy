@@ -52,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "8",
+            "value": "6",
             "varName": "moveSpeed",
             "varType": 0
         },
@@ -111,9 +111,37 @@
             "value": "10",
             "varName": "acceleration",
             "varType": 1
+        },
+        {
+            "id": "035873b5-41a4-4989-b517-d45d13d72250",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "range",
+            "varType": 0
+        },
+        {
+            "id": "6f652e3d-296a-43e7-bee3-50f7ff64f265",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "invincibilityFrames",
+            "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "24832a8a-94e5-4772-a94a-269fa03559fc",
+    "spriteId": "dbea490f-bff2-441c-8880-62707a6799bf",
     "visible": true
 }

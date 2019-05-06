@@ -1,0 +1,1 @@
+savedHp = global.maxHp;
