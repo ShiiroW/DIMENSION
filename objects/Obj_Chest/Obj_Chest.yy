@@ -67,7 +67,7 @@
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": [
-                "0",
+                "Obj_Item0",
                 "1",
                 "2",
                 "3",
@@ -80,7 +80,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "Obj_Item0",
             "varName": "items",
             "varType": 6
         }

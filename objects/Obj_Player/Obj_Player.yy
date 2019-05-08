@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "17df4841-5a47-479c-bc45-b505836541ba"
+        },
+        {
+            "id": "c32b4834-ae06-49e3-ad79-221a13c4acb3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "17df4841-5a47-479c-bc45-b505836541ba"
+        },
+        {
+            "id": "c2c732b8-c060-4815-9afa-0757d012b5de",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 70,
+            "eventtype": 9,
+            "m_owner": "17df4841-5a47-479c-bc45-b505836541ba"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -139,6 +159,20 @@
             "value": "60",
             "varName": "invincibilityFrames",
             "varType": 1
+        },
+        {
+            "id": "bb4fb975-9664-4cee-8b46-bbdbe76472fa",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "150",
+            "varName": "foa",
+            "varType": 0
         }
     ],
     "solid": false,

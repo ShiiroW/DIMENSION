@@ -46,7 +46,64 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "e259e688-9afd-4b94-b29f-f04cf7777fee",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88937621-3347-4a51-ab4e-32b971186f17",
+            "propertyId": "c542551d-56be-486e-b246-4134e4bc73d8",
+            "value": "100"
+        },
+        {
+            "id": "116492d5-4927-42e4-9c85-54a251d93ae5",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88937621-3347-4a51-ab4e-32b971186f17",
+            "propertyId": "3d56fef9-c0ae-4cc3-8dab-a99a93083c20",
+            "value": "100"
+        },
+        {
+            "id": "6884e138-0d19-484e-84bb-3ee90d6bee4f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88937621-3347-4a51-ab4e-32b971186f17",
+            "propertyId": "21620724-e214-460a-bfb7-6d87b11535b6",
+            "value": "15"
+        },
+        {
+            "id": "3cc89d41-e227-481a-9595-bb1861e33c4c",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88937621-3347-4a51-ab4e-32b971186f17",
+            "propertyId": "1857eb15-9029-42ce-ae1b-22e13ec540bd",
+            "value": "4"
+        },
+        {
+            "id": "b5193df6-ae09-4bab-8885-3bb0da5429a6",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88937621-3347-4a51-ab4e-32b971186f17",
+            "propertyId": "680603be-3a34-40c9-910a-df382f3a6720",
+            "value": "30"
+        },
+        {
+            "id": "9fee5af6-de07-4c05-b26c-6e5eb02f7227",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88937621-3347-4a51-ab4e-32b971186f17",
+            "propertyId": "720b0fda-8fa5-4c86-b8e6-9cf6a453d834",
+            "value": "30"
+        },
+        {
+            "id": "c2289c59-a461-446d-a397-41d534f636b3",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "88937621-3347-4a51-ab4e-32b971186f17",
+            "propertyId": "c7cf1266-a374-4813-ab0e-c8ed85a95b5d",
+            "value": "10"
+        }
+    ],
     "parentObjectId": "88937621-3347-4a51-ab4e-32b971186f17",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -62,62 +119,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "7e94ddec-99ab-401d-b771-fb0f39f80837",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "3",
-            "varName": "maxSpeed",
-            "varType": 0
-        },
-        {
-            "id": "42985bd0-edf8-43ad-bfc9-c9b3aa93ea2a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "15",
-            "varName": "damage",
-            "varType": 0
-        },
-        {
-            "id": "a3edbd0e-d077-4b67-a8cb-0d90fc06135d",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "40",
-            "varName": "hp",
-            "varType": 0
-        },
-        {
-            "id": "71be54cb-78ff-45d9-aca0-160cf4c0267c",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "40",
-            "varName": "maxHp",
-            "varType": 0
-        }
+        
     ],
     "solid": false,
     "spriteId": "f3677d41-1f55-48d0-bcca-e8bbc76f9dc6",

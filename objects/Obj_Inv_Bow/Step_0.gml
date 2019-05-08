@@ -9,5 +9,6 @@ if (cooldownPhase) {
 if (rayTouched != noone) {
 	var damage = Scr_AttackOnType(type, rayTouched.type, rayTouched.resistance, rayTouched.weakness, attack) - rayTouched.defense;
 	rayTouched.hp = Scr_Clamp(rayTouched.hp - damage, 0, rayTouched.maxHp);
+	draw_damage = damage;
 	rayTouched = noone;
 }

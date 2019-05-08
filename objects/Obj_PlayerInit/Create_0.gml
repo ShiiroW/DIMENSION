@@ -14,56 +14,6 @@ global.maxHp = 100 + global.level * 20;
 global.hp = global.maxHp;
 global.damageMultiplier = 1;
 
-global.typetable = ds_map_create();
-
-global.typetable[?TYPE.FIRE] = ds_map_create();
-global.typetable[?TYPE.FIRE[?TYPE.WATER]] = 0;
-global.typetable[?TYPE.FIRE[?TYPE.FIRE]]  = 0;
-global.typetable[?TYPE.FIRE[?TYPE.EARTH]] = 2;
-global.typetable[?TYPE.FIRE[?TYPE.LIGHT]] = 1;
-global.typetable[?TYPE.FIRE[?TYPE.DARK]]  = 1;
-global.typetable[?TYPE.FIRE[?TYPE.NONE]]  = 1;
-
-global.typetable[?TYPE.WATER] = ds_map_create();
-global.typetable[?TYPE.WATER[?TYPE.WATER]] = 0;
-global.typetable[?TYPE.WATER[?TYPE.FIRE]]  = 2;
-global.typetable[?TYPE.WATER[?TYPE.EARTH]] = 0;
-global.typetable[?TYPE.WATER[?TYPE.LIGHT]] = 1;
-global.typetable[?TYPE.WATER[?TYPE.DARK]]  = 1;
-global.typetable[?TYPE.WATER[?TYPE.NONE]]  = 1;
-
-global.typetable[?TYPE.EARTH] = ds_map_create();
-global.typetable[?TYPE.EARTH[?TYPE.WATER]] = 2;
-global.typetable[?TYPE.EARTH[?TYPE.FIRE]]  = 0;
-global.typetable[?TYPE.EARTH[?TYPE.EARTH]] = 0;
-global.typetable[?TYPE.EARTH[?TYPE.LIGHT]] = 2;
-global.typetable[?TYPE.EARTH[?TYPE.DARK]]  = 0;
-global.typetable[?TYPE.EARTH[?TYPE.NONE]]  = 1;
-
-global.typetable[?TYPE.LIGHT] = ds_map_create();
-global.typetable[?TYPE.LIGHT[?TYPE.WATER]] = 1;
-global.typetable[?TYPE.LIGHT[?TYPE.FIRE]]  = 1;
-global.typetable[?TYPE.LIGHT[?TYPE.EARTH]] = 0;
-global.typetable[?TYPE.LIGHT[?TYPE.LIGHT]] = 1;
-global.typetable[?TYPE.LIGHT[?TYPE.DARK]]  = 2;
-global.typetable[?TYPE.LIGHT[?TYPE.NONE]]  = 1;
-
-global.typetable[?TYPE.DARK] = ds_map_create();
-global.typetable[?TYPE.DARK[?TYPE.WATER]] = 1;
-global.typetable[?TYPE.DARK[?TYPE.FIRE]]  = 1;
-global.typetable[?TYPE.DARK[?TYPE.EARTH]] = 2;
-global.typetable[?TYPE.DARK[?TYPE.LIGHT]] = 0;
-global.typetable[?TYPE.DARK[?TYPE.DARK]]  = 1;
-global.typetable[?TYPE.DARK[?TYPE.NONE]]  = 1;
-
-global.typetable[?TYPE.NONE] = ds_map_create();
-global.typetable[?TYPE.NONE[?TYPE.WATER]] = 1;
-global.typetable[?TYPE.NONE[?TYPE.FIRE]]  = 1;
-global.typetable[?TYPE.NONE[?TYPE.EARTH]] = 1;
-global.typetable[?TYPE.NONE[?TYPE.LIGHT]] = 1;
-global.typetable[?TYPE.NONE[?TYPE.DARK]]  = 1;
-global.typetable[?TYPE.NONE[?TYPE.NONE]]  = 1;
-
 enum TYPE {
 	FIRE,
 	WATER,
@@ -72,5 +22,47 @@ enum TYPE {
 	DARK,
 	NONE
 }	
+
+global.typetable[0, 1] = 0;
+global.typetable[0, 0]  = 0;
+global.typetable[0, 2] = 2;
+global.typetable[0, 3] = 1;
+global.typetable[0, 4]  = 1;
+global.typetable[0, 5]  = 1;
+
+global.typetable[1, 1] = 0;
+global.typetable[1, 0] = 2;
+global.typetable[1, 2] = 0;
+global.typetable[1, 3] = 1;
+global.typetable[1, 4] = 1;
+global.typetable[1, 5] = 1;
+
+global.typetable[2, 1] = 2;
+global.typetable[2, 0] = 0;
+global.typetable[2, 2] = 0;
+global.typetable[2, 3] = 2;
+global.typetable[2, 4] = 0;
+global.typetable[2, 5] = 1;
+
+global.typetable[3, 1] = 1;
+global.typetable[3, 0] = 1;
+global.typetable[3, 2] = 0;
+global.typetable[3, 3] = 1;
+global.typetable[3, 4] = 2;
+global.typetable[3, 5] = 1;
+
+global.typetable[4, 1] = 1;
+global.typetable[4, 0] = 1;
+global.typetable[4, 2] = 2;
+global.typetable[4, 3] = 0;
+global.typetable[4, 4] = 1;
+global.typetable[4, 5] = 1;
+
+global.typetable[5, 1] = 1;
+global.typetable[5, 0] = 1;
+global.typetable[5, 2] = 1;
+global.typetable[5, 3] = 1;
+global.typetable[5, 4] = 1;
+global.typetable[5, 5] = 1;
 
 instance_destroy();

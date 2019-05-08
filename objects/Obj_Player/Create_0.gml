@@ -1,4 +1,5 @@
 velocity = 0;
 angle = 0;
-invincibilityPhase = false;
+aimAngle = 0;
+invincibilityPhase = true;
 invincibilityFramesCounter = 0;
