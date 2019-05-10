@@ -1,0 +1,38 @@
+var file = file_text_open_read("savefile.gm");
+room_goto(file_text_read_real(file));
+instance_create_depth(x, y, depth, Obj_Player);
+file_text_readln(file);
+Obj_Player.x = file_text_read_real(file);
+file_text_readln(file);
+Obj_Player.y = file_text_read_real(file);
+file_text_readln(file);
+global.damageMultiplier = file_text_read_real(file);
+file_text_readln(file);
+global.level = file_text_read_real(file);
+file_text_readln(file);
+global.maxHp = file_text_read_real(file);
+file_text_readln(file);
+global.hp = file_text_read_real(file);
+file_text_readln(file);
+global.inventory[? "Weapon"] =  file_text_read_string(file);
+file_text_readln(file);
+global.inventory[? "Armor"] =  file_text_read_string(file);
+file_text_readln(file);
+global.inventory[? "Heal 1"] =  file_text_read_string(file);
+file_text_readln(file);
+global.inventory[? "Heal 2"] =  file_text_read_string(file);
+file_text_readln(file);
+global.inventory[? "Spell 1"] =  file_text_read_string(file);
+file_text_readln(file);
+global.inventory[? "Spell 2"] =  file_text_read_string(file);
+file_text_readln(file);
+global.inventory[? "Spell 3"] =  file_text_read_string(file);
+
+if (global.inventory[? "Weapon"] != " ") instance_create_depth(x, y, depth, global.inventory[? "Weapon"]);
+if (global.inventory[? "Armor"] != " ") instance_create_depth(x, y, depth, global.inventory[? "Armor"]);
+if (global.inventory[? "Heal 1"] != " ") instance_create_depth(x, y, depth, global.inventory[? "Heal 1"]);
+if (global.inventory[? "Heal 2"] != " ") instance_create_depth(x, y, depth, global.inventory[? "Heal 2"]);
+if (global.inventory[? "Spell 1"] != " ") instance_create_depth(x, y, depth, global.inventory[? "Spell 1"]);
+if (global.inventory[? "Spell 2"] != " ") instance_create_depth(x, y, depth, global.inventory[? "Spell 2"]);
+if (global.inventory[? "Spell 3"] != " ") instance_create_depth(x, y, depth, global.inventory[? "Spell 3"]);
+

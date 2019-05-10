@@ -1,5 +1,5 @@
 draw_set_color(amount >= 0 ? c_lime : c_red);
-
+draw_set_font(Fnt_hpbar);
 if (abs(ystart - distance - y) < 10) {
 	a = Scr_Approach(a, 0.1, 0);
 	if (a == 0) {

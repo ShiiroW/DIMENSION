@@ -1,2 +1,2 @@
-/// @description Insérez la description ici
-// Vous pouvez écrire votre code dans cet éditeur
+time = current_time;
+a = 1;
